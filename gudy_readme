@@ -1,0 +1,16 @@
+可以远程SSH登录
+IP 222.195.151.71 
+ROOT: superai123
+你使用ZD 登录系统吧，
+
+数据和代码 放到" /mnt/md0/project"
+
+图片接口我弄好了  把图片放在AlphaPose-pytorch/results/input/下  调用 python3 demo.py 会处理该文件夹下所有的图片结果放在 AlphaPose-pytorch/results/output/
+
+http://112.231.87.195:8181  admin  abcd.1234
+
+1.	视频流传输
+由分析服务端通过onvif公共协议连接视频设备，直接读取视频流进行分析，通过设备的IP和通道建立标识。
+2.	服务调用方式
+通过网络接口，建立连接后推送分析数据，分析数据格式为json数据包。
+数据包括 a 视频标识（视频设备IP-通道唯一标识） b视频时间标识 c分析数据结构
