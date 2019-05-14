@@ -7,7 +7,7 @@ ROOT: superai
 
 图片接口我弄好了  把图片放在AlphaPose-pytorch/results/input/下  调用 python3 demo.py 会处理该文件夹下所有的图片结果放在 AlphaPose-pytorch/results/output/
 
-http://112.231.87.195:8181  admin  abcd.1234
+http://39.82.154.101:8181/doc/page/preview.asp  admin  abcd.1234
 
 1.	视频流传输
 由分析服务端通过onvif公共协议连接视频设备，直接读取视频流进行分析，通过设备的IP和通道建立标识。
